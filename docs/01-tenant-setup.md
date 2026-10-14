@@ -38,6 +38,12 @@ Assign licenses to `pilot` and `control`.
 1. Entra admin center → **Groups → New group**.
 2. Create a security group `Intune-Pilot` and add the `pilot` user.
 
+### Optional: device group
+
+| Group | Type | Members | Purpose |
+|-------|------|---------|---------|
+| `Intune-Pilot-Devices` | Security, Assigned | Test device | Target the device regardless of who signs in, and test device-targeted assignments (for example an app installed per device rather than per user) |
+
 ### 4. Set MDM user scope
 
 1. Entra admin center → **Mobility (MDM and MAM) → Microsoft Intune**.
