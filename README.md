@@ -30,7 +30,7 @@ A hands-on Microsoft Intune and Entra ID lab. It covers device enrollment, compl
 ```
  Test user ──signs in──▶ Entra ID ──Conditional Access──▶ Microsoft 365 apps
                               │                               ▲
-                              │ device compliance state        │ allow / block
+                              │ device compliance state       │ allow / block
                               ▼                               │
  Windows device ◀──policies/apps── Intune ───────────────────┘
 ```
