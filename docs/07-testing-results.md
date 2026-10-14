@@ -69,13 +69,3 @@ Record the outcome of every test case with evidence, so another admin can verify
 - Biggest surprise:
 - What I would change:
 
-## Optional: Intune Suite trial (stretch)
-
-If you tested Intune Suite add-ons, record them here separately.
-
-| Feature | Tested? | Result | Notes |
-|---------|---------|--------|-------|
-| Endpoint Privilege Management | | | |
-| Cloud PKI | | | |
-| Enterprise App Management | | | |
-| Remote Help | | | |
