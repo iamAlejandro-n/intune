@@ -20,8 +20,8 @@ Prepare a clean test tenant with the licenses, users, groups and safety nets nee
 
 | License | Present? |
 |---------|----------|
-| Microsoft Intune Plan 1 | |
-| Microsoft Entra ID P1 | |
+| Microsoft Intune Plan 1 |yes |
+| Microsoft Entra ID P1 |yes |
 
 ### 2. Create test users
 
@@ -46,8 +46,8 @@ Assign licenses to `pilot` and `control`.
 
 ### 4. Set MDM user scope
 
-1. Entra admin center → **Mobility (MDM and MAM) → Microsoft Intune**.
-2. Set **MDM user scope** to *Some* and select `Intune-Pilot`, or *All* for a lab-only tenant.
+1. in the Intune admin center, the Windows automatic enrollment page (Devices → Enrollment → Windows → Automatic Enrollment)
+2. Set MDM user scope to Some, then select Intune-Pilot
 
 ### 5. Secure the break-glass account
 
@@ -58,16 +58,17 @@ Assign licenses to `pilot` and `control`.
 ## Verification
 
 - [ ] Licenses visible on test users
-- [ ] `Intune-Pilot` group contains `pilot`
+- [y] `Intune-Pilot` group contains `pilot`
 - [ ] MDM user scope set
-- [ ] Break-glass account created and documented offline
+- [y] Break-glass account created and documented offline
 
 ## Screenshots
 
 Add sanitized screenshots to `images/`:
 
 - `licenses.png`
-- `groups.png`
+- `groups.png`<img width="242" height="181" alt="groups" src="https://github.com/user-attachments/assets/19ec1502-5af0-44c2-a13b-c9f5bc65699f" />
+
 - `mdm-scope.png`
 
 ## Notes and issues
