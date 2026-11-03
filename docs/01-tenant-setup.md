@@ -6,7 +6,7 @@ Prepare a clean test tenant with the license, user, group and safety nets needed
 
 ## Prerequisites
 
-- A test tenant (do not use production)
+- A test tenant 
 - Global Administrator access
 - Microsoft 365 E3 trial (includes Intune Plan 1 and Entra ID P1)
 
@@ -14,7 +14,7 @@ Prepare a clean test tenant with the license, user, group and safety nets needed
 
 | Decision | Choice | Reason |
 |----------|--------|--------|
-| License | Microsoft 365 E3 trial, `<n>` seats, ends `<date>` | Includes Intune Plan 1 and Entra ID P1, so nothing else is needed |
+| License | Microsoft 365 E3 trial | Includes Intune Plan 1 and Entra ID P1, so nothing else is needed |
 | Who is licensed | `pilot`, through the `Intune-Pilot` group | Only the enrolled, targeted user needs Intune and Entra ID P1 |
 | Admin and break-glass accounts | No license | Admin access comes from a role, not a license |
 | `Intune-Pilot` group type | User (security) group | Conditional Access targets users and groups of users, not device groups |
@@ -29,10 +29,10 @@ Prepare a clean test tenant with the license, user, group and safety nets needed
 3. Click it and check that Intune Plan 1 and Entra ID P1 appear among the included services.
 4. Under **Billing → Your products**, check whether a payment method is attached and whether the trial converts to a paid subscription when it ends. Cancel before the end date if you do not want to be charged.
 
-| License | Present? | Source | Seats | Expires |
-|---------|----------|--------|-------|---------|
-| Microsoft Intune Plan 1 | | Microsoft 365 E3 trial | | |
-| Microsoft Entra ID P1 | | Microsoft 365 E3 trial | | |
+| License | Present? | Source |
+|---------|----------|--------|
+| Microsoft Intune Plan 1 | | Microsoft 365 E3 trial | 
+| Microsoft Entra ID P1 | | Microsoft 365 E3 trial | 
 
 A trial ends on a fixed date and usually cannot be restarted in the same tenant. Plan to finish enrollment, compliance, configuration, apps and Conditional Access before it ends, and capture screenshots while the license is active.
 
@@ -42,8 +42,6 @@ A trial ends on a fixed date and usually cannot be restarted in the same tenant.
 2. Display name: `Pilot User`. Username: `pilot@<tenant>.onmicrosoft.com`.
 3. Set **Usage location** (for example, United States). Licenses cannot be assigned to a group member without it.
 4. Do not assign a license directly. The group will provide it.
-
-Use generic names only. Do not use a real name or personal email in a public repo.
 
 ### 3. Create the group and add the user
 
@@ -99,13 +97,13 @@ if you dont want to tie mdm to user
 
 ## Verification
 
-- [ ] Microsoft 365 E3 trial present, with seat count and end date recorded
-- [ ] `pilot` exists with a usage location
-- [ ] `Intune-Pilot` contains `pilot`
-- [ ] `pilot` shows the E3 license assigned through the group
-- [ ] MDM user scope set
-- [ ] Break-glass account created and documented offline
-- [ ] Admin account can open intune.microsoft.com and see Devices and Apps
+- [✔] Microsoft 365 E3 trial present
+- [✔] `pilot` exists with a usage location
+- [✔] `Intune-Pilot` contains `pilot`
+- [✔] `pilot` shows the E3 license assigned through the group
+- [✔] MDM user scope set
+- [✔] Break-glass account created and documented offline
+- [✔] Admin account can open intune.microsoft.com and see Devices and Apps
 
 ## Screenshots
 
