@@ -1,41 +1,41 @@
 # Intune Lab
 
-A hands-on Microsoft Intune and Entra ID lab. It covers device enrollment, compliance, configuration, app deployment and Conditional Access
+A hands-on Microsoft Intune and Entra ID lab. It covers device enrollment, compliance, configuration, app deployment and Conditional Access, with the policies exported as JSON so every change is versioned and repeatable.
 
 > **Note:** This is a personal lab built in a test tenant. All identifiers (tenant IDs, domains, emails, serial numbers) have been removed or replaced with placeholders.
 
 ## What this project demonstrates
 
 - Enrolling a Windows device into Intune
-- Compliance policies (BitLocker, OS version, Defender) *update*
+- Compliance policies (OS version, Defender, firewall). BitLocker is skipped because the test device runs Windows 11 Home.
 - Configuration profiles using the settings catalog
-- App deployment (Microsoft Store)
+- App deployment (Microsoft Store and Win32)
 - Conditional Access that requires a compliant device
-- Exporting and importing policies with PowerShell and Microsoft Graph *maybe delete if not*
+- Exporting and importing policies with PowerShell and Microsoft Graph
 - Documented test cases with results
 
 ## Lab environment
 
 | Item | Value |
 |------|-------|
-| Tenant | Test tenant (`mini.onmicrosoft.com`) |
-| Licenses | Microsoft 365 E3 (Intune Plan 1 + Entra ID P1) |
-| Test device | Windows 11 `physical device` |
+| Tenant | Test tenant (`<tenant>.onmicrosoft.com`) |
+| Licenses | Microsoft 365 E3 (Intune Plan 1 + Entra ID P1) *or* Intune trial + EMS trial |
+| Test device | Windows 11 Home, physical device (Entra registered) |
 | Test users | `pilot` and `control` |
 | Test group | `Intune-Pilot` |
-| Admin tooling | Intune admin center, Entra admin center | *include powershell if used*
+| Admin tooling | Intune admin center, Entra admin center, PowerShell 7 |
 
 ## Architecture
 
 ```
  Test user ──signs in──▶ Entra ID ──Conditional Access──▶ Microsoft 365 apps
                               │                               ▲
-                              │ device compliance state       │ allow / block
+                              │ device compliance state        │ allow / block
                               ▼                               │
  Windows device ◀──policies/apps── Intune ───────────────────┘
 ```
 
-
+Replace this with a diagram of your own (draw.io or Mermaid) and save it in `docs/images/`.
 
 ## Repository layout
 
