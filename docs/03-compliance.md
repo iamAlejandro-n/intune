@@ -13,7 +13,6 @@ Create a Windows compliance policy that evaluates device health, and confirm the
 
 | Setting | Value | Reason |
 |---------|-------|--------|
-| Require BitLocker | Yes | Protects data at rest |
 | Minimum OS version | `<e.g. 10.0.22631>` | Ensures patched OS |
 | Microsoft Defender real-time protection | Required | Baseline malware protection |
 | Firewall | Required | Network baseline |
@@ -55,7 +54,7 @@ Remove tenant IDs and any identifying values before committing.
 | Symptom | Likely cause | Fix |
 |---------|--------------|-----|
 | Status stays "Not evaluated" | Device has not synced | Force sync, wait several minutes |
-| BitLocker shows noncompliant | Drive not encrypted | Enable BitLocker or a policy that does |
+| A setting shows Not applicable | Setting not supported on Windows Home | Remove it, or record it as a Home-edition limitation |
 | Everyone noncompliant | Mark-noncompliant action set to immediate | Add a grace period |
 
 ## Notes and issues
