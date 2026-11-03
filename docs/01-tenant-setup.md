@@ -113,7 +113,8 @@ Add sanitized screenshots to `images/`:
 
 - *`licenses.png`*<img width="600" height="229" alt="control prove" src="https://github.com/user-attachments/assets/fb040430-d7ba-4f2c-8a98-598603f92965" /> <img width="600" height="722" alt="assign license" src="https://github.com/user-attachments/assets/ec2c5e47-672d-45db-952e-df3be8a5997b" />
 
-- *`mdm-scope.png`*[intune scope.pdf](https://github.com/user-attachments/files/34301063/intune.scope.pdf)
+- *`mdm-scope.png`*<img width="1920" height="1080" alt="intune scope" src="https://github.com/user-attachments/assets/408cdf6b-984e-484e-ad40-da64715e4023" />
+
 
 
 ## Notes and issues
