@@ -47,7 +47,8 @@ BitLocker is skipped in this lab. See compliance policies.
 
 - `enroll-connect.png`<img width="738" height="400" alt="account login intune" src="https://github.com/user-attachments/assets/d87db925-a657-4e73-a4b0-d4ae909c3232" />
 
-- `device-in-intune.png`
+- `device-in-intune.png`<img width="291" height="154" alt="intune" src="https://github.com/user-attachments/assets/4b2f62d3-e87b-4b24-aeb0-9f63b20ba2fa" />
+
 - `device-overview.png`<img width="1441" height="103" alt="intune device join" src="https://github.com/user-attachments/assets/40ab0185-9eae-4287-bb14-4e132b327c0d" />
 
 
