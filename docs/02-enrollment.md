@@ -38,10 +38,10 @@ BitLocker is skipped in this lab. See compliance policies.
 
 ## Verification
 
-- [ ] Device visible in Intune admin center
-- [ ] Management state shows as managed by Intune
-- [ ] Primary user is `pilot`
-- [ ] Last check-in time is recent
+- [✔] Device visible in Intune admin center
+- [✔] Management state shows as managed by Intune
+- [✔] Primary user is `pilot`
+- [✔] Last check-in time is recent
 
 ## Screenshots
 
