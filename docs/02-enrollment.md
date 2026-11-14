@@ -68,4 +68,5 @@ Use **Retire** in Intune to remove company data, then disconnect under Settings 
 
 ## Notes and issues
 
-- *(Record anything unexpected.)*
+- on added device go to accounts in settings and sign in as the pilot user.
+- 
