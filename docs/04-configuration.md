@@ -54,13 +54,13 @@ Optional: Settings > Accounts > Access work or school > Info > **Create report**
 
 ## Screenshots
 
-- `config-profile-settings.png` - <img width="1083" height="499" alt="config defender scan settings 1" src="https://github.com/user-attachments/assets/509d0ad6-e5f4-4728-bde4-fd5d29d96b59" />
+- `config-profile-settings.png` - 
 
-- `config-profile-status.png` - <img width="807" height="417" alt="config succeeded" src="https://github.com/user-attachments/assets/79e5f0dd-5224-4bbf-87cf-dfa4f9e3ec71" />
+- `config-profile-status.png` - 
 
-- `setting-on-device-before.png` - <img width="1561" height="226" alt="scan-false" src="https://github.com/user-attachments/assets/4dfacf20-6c4d-4c68-8b88-1bc301123ce3" />
+- `setting-on-device-before.png` - 
 
-- `setting-on-device.png` - <img width="1779" height="284" alt="scan-true" src="https://github.com/user-attachments/assets/993c4177-3862-49c6-aef0-73fef55cccb5" />
+- `setting-on-device.png` - 
 
 
 ## Troubleshooting
