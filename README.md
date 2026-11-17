@@ -73,7 +73,7 @@ See [testing results](docs/07-testing-results.md) for details and screenshots.
 
 1. Follow [tenant setup](docs/01-tenant-setup.md).
 2. Enroll a test device ([enrollment](docs/02-enrollment.md)).
-3. Create the policies manually, or import them with `scripts/import-policies.ps1` after reviewing the JSON.
+3. Create the policies manually.
 4. Run the test cases and record your results.
 
 ## Lessons learned
