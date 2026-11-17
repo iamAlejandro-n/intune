@@ -46,14 +46,14 @@ Remove tenant IDs and any identifying values before committing.
 
 ## Screenshots
 
-- `compliance-policy-settings.png`<img width="640" height="649" alt="compliance policy1" src="https://github.com/user-attachments/assets/e65ff0f3-9532-41bb-95be-8d718370ae2d" /><img width="895" height="391" alt="compliance policy2" src="https://github.com/user-attachments/assets/68cf464c-085f-4c67-9a42-fd7644d7b501" /><img width="792" height="369" alt="compliance policy3" src="https://github.com/user-attachments/assets/e9e2639c-8709-40c9-a6bf-90370ebf152f" />
+- `compliance-policy-settings.png`- <img width="640" height="649" alt="compliance policy1" src="https://github.com/user-attachments/assets/e65ff0f3-9532-41bb-95be-8d718370ae2d" /><img width="895" height="391" alt="compliance policy2" src="https://github.com/user-attachments/assets/68cf464c-085f-4c67-9a42-fd7644d7b501" /><img width="792" height="369" alt="compliance policy3" src="https://github.com/user-attachments/assets/e9e2639c-8709-40c9-a6bf-90370ebf152f" />
 
 
 
-- `compliance-device-status-good.png`<img width="670" height="415" alt="compliance applied" src="https://github.com/user-attachments/assets/f134fba0-306e-41d1-81e7-3f4c521dd35e" />
-<img width="592" height="498" alt="compliance passing-b4-failing" src="https://github.com/user-attachments/assets/18d39142-338c-43a9-b4e1-6ae269327a08" />
+- `compliance-device-status-good.png`- <img width="670" height="415" alt="compliance applied" src="https://github.com/user-attachments/assets/a61a7c3e-0989-43d8-9866-cbf1d0394dd9" />
 
-- `compliance-device-status-failed.png`<img width="610" height="549" alt="compliance failed" src="https://github.com/user-attachments/assets/b7892c7b-89ef-4125-ad99-4a5577806ef9" />
+
+- `compliance-device-status-failed.png`- <img width="610" height="549" alt="compliance failed" src="https://github.com/user-attachments/assets/b7892c7b-89ef-4125-ad99-4a5577806ef9" />
 
 
 ## Troubleshooting
