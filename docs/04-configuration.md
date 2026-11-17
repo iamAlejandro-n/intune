@@ -48,7 +48,6 @@ The test device runs Windows 11 Home, so not every setting applies. Several pers
 - [ ] Profile status: Succeeded for the pilot device in the Intune report
 - [ ] `Get-MpPreference` shows `False` before and `True` after
 - [ ] Any Not applicable results recorded in the Home limitations table
-- [ ] JSON exported to `policies/configuration/`
 
 Optional: Settings > Accounts > Access work or school > Info > **Create report** produces an MDM diagnostics report.
 
