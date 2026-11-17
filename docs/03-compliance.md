@@ -36,14 +36,6 @@ Start lenient: only require what the device already meets, then tighten.
 - [✔] Device status is Compliant, or Not compliant with a reason
 - [✔] Policy JSON exported to `policies/compliance/`
 
-## Export
-
-```powershell
-./scripts/export-policies.ps1 -Type compliance
-```
-
-Remove tenant IDs and any identifying values before committing.
-
 ## Screenshots
 
 - `compliance-policy-settings.png`- <img width="640" height="649" alt="compliance policy1" src="https://github.com/user-attachments/assets/e65ff0f3-9532-41bb-95be-8d718370ae2d" /><img width="895" height="391" alt="compliance policy2" src="https://github.com/user-attachments/assets/68cf464c-085f-4c67-9a42-fd7644d7b501" /><img width="792" height="369" alt="compliance policy3" src="https://github.com/user-attachments/assets/e9e2639c-8709-40c9-a6bf-90370ebf152f" />
