@@ -116,4 +116,4 @@ Keep install and detection scripts in `scripts/apps/`.
 
 ## Notes and issues
 
-- *(Record anything unexpected.)*
+- if my device was windows pro this would have worked, the app would have been installed on the device. i tried with multiple app types like company portal and windows apps, required and assignable. I checked the id of the device and the one registered to entra which i saw was different (potentially from a windows update on the pilot device) and assumed it was the issue. i fully removed the device from entra and disconnected the work account and reconnect. checked both deviceid on the computer and entra and it wass the same. i checked to see if the app would finally be deployed but it sent an error this time. thats when i found out it was not compatible with windows home.
